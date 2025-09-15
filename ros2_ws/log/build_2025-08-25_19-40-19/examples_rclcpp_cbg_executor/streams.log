@@ -1,0 +1,82 @@
+[0.055s] Invoking command in '/home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dylan-george/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor
+[0.286s] -- The C compiler identification is GNU 13.3.0
+[0.548s] -- The CXX compiler identification is GNU 13.3.0
+[0.591s] -- Detecting C compiler ABI info
+[0.821s] -- Detecting C compiler ABI info - done
+[0.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.860s] -- Detecting C compile features
+[0.866s] -- Detecting C compile features - done
+[0.884s] -- Detecting CXX compiler ABI info
+[1.132s] -- Detecting CXX compiler ABI info - done
+[1.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.161s] -- Detecting CXX compile features
+[1.166s] -- Detecting CXX compile features - done
+[1.172s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.573s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.781s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.907s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.031s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.076s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.465s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.477s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.758s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.819s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.157s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.217s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.569s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.572s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.572s] -- Configured cppcheck include dirs: /home/dylan-george/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[3.572s] -- Configured cppcheck exclude dirs and/or files: 
+[3.576s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.577s] -- Configured cpplint exclude dirs and/or files: 
+[3.582s] -- Added test 'lint_cmake' to check CMake code style
+[3.586s] -- Added test 'uncrustify' to check C / C++ code style
+[3.586s] -- Configured uncrustify additional arguments: 
+[3.588s] -- Added test 'xmllint' to check XML markup files
+[3.594s] -- Configuring done (3.5s)
+[3.634s] -- Generating done (0.0s)
+[3.650s] -- Build files have been written to: /home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor
+[3.678s] Invoked command in '/home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dylan-george/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor
+[3.689s] Invoking command in '/home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[3.818s] [ 10%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[3.824s] [ 20%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[3.829s] [ 30%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[3.838s] [ 40%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[3.839s] [ 50%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[3.839s] [ 60%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[3.841s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[66.273s] [ 80%] [32m[1mLinking CXX executable pong[0m
+[67.253s] [ 80%] Built target pong
+[67.423s] [ 90%] [32m[1mLinking CXX executable ping_pong[0m
+[68.278s] [ 90%] Built target ping_pong
+[68.358s] [100%] [32m[1mLinking CXX executable ping[0m
+[68.993s] [100%] Built target ping
+[69.080s] Invoked command in '/home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[69.084s] Invoking command in '/home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor
+[69.115s] -- Install configuration: ""
+[69.115s] -- Execute custom install script
+[69.115s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[69.145s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[69.156s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[69.183s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[69.201s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[69.222s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[69.244s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[69.263s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[69.279s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[69.293s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[69.312s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[69.331s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[69.352s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[69.371s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[69.392s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[69.412s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[69.445s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[69.476s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.510s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[69.537s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[69.556s] -- Symlinking: /home/dylan-george/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[70.440s] Invoked command in '/home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dylan-george/ros2_ws/build/examples_rclcpp_cbg_executor

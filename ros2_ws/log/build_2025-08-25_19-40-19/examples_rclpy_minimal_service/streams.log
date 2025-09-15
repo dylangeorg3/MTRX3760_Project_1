@@ -1,0 +1,25 @@
+[3.619s] Invoking command in '/home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data
+[4.667s] running develop
+[5.300s] running egg_info
+[5.303s] creating examples_rclpy_minimal_service.egg-info
+[5.375s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[5.376s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[5.376s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[5.377s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[5.377s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[5.377s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.554s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.555s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[5.639s] running build_ext
+[5.639s] Creating /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[5.641s] Installing service script to /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[5.641s] Installing service_member_function script to /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[5.642s] 
+[5.642s] Installed /home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service
+[5.642s] running symlink_data
+[5.644s] creating /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index
+[5.644s] creating /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[5.647s] creating /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[5.647s] symbolically linking /home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service/resource/examples_rclpy_minimal_service -> /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[5.647s] symbolically linking /home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service/package.xml -> /home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[6.389s] Invoked command in '/home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dylan-george/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dylan-george/ros2_ws/build/examples_rclpy_minimal_service/build --no-deps symlink_data
